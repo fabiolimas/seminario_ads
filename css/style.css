@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+#interface{
+
+    margin: 0 auto;
+    width: 100%;
+    height:675px;
+    background-image:url("../image/background.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#escolha{
+    background-color:rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 515px;
+}
+
+#cabecalho{
+    background-color:rgba(0,0,0,.8);
+    margin: 0 auto;
+       width: 100%;
+      
+    
+}
+#cabecalho img{
+    margin-left: 41%;
+    width:16%;
+    padding: 10px;
+ }
+ #btn{
+
+    width: 224px;
+    height: 53px;
+    background-color: #8e2126;
+    color:white;
+    font-family: tahoma;
+    border-radius: 8px;
+    margin-top: 9%;
+    margin-left: 41%;
+    border: none;
+    font-size: 21px;
+    cursor: pointer;
+ }
+ #btn img, #btn2 img{
+    width: 35px;
+
+    height: 35px;
+    
+    margin-left: -47px;
+    
+    position: absolute;
+    
+    margin-top: -6px;
+ }
+ #btn:hover, #btn2:hover, #send:hover, #cancel:hover{
+     background-color: white;
+     color: #8e2126;
+     border:1px solid #8e2126;
+ }
+ #btn2{
+
+    width: 224px;
+    height: 53px;
+    background-color: #8e2126;
+    color:white;
+    font-family: tahoma;
+    border-radius: 8px;
+    margin-top: 4%;
+    margin-left: 41%;
+    border: none;
+    font-size: 21px;
+    cursor:pointer;
+ }
+ #escolha h1{
+     font-family: calibri;
+     color: black;
+     font-size: 33px;
+     text-align: center;
+     text-shadow: 1px 1px 1px #a61b21;
+     margin-bottom:20px;
+ }
+ #cadastra{
+     width:800px;
+     margin: 0 auto;
+     background-color:rgba(0, 0, 0, 0.5);
+     padding:15px;
+     font-size: 18;
+     color: #8e2126;
+     font-family: calibri;
+     font-weight: bold;
+     position: relative;
+     border-radius: 5px;
+ }
+
+ #cadastra input {
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+    
+ }
+ #send{
+
+    width: 114px;
+    height: 34px;
+    background-color: #8e2126;
+    color:white;
+    font-family: tahoma;
+    border-radius: 8px;
+    margin-top: 2%;
+  
+    border: none;
+    font-size: 18px;
+    cursor:pointer;
+ }
+ #cancel{
+
+    width: 114px;
+
+height: 34px;
+
+background-color: white;
+
+color: black;
+
+font-family: tahoma;
+
+border-radius: 8px;
+
+margin-top: 2%;
+
+text-decoration: none;
+
+border: none;
+
+font-size: 18px;
+
+cursor: pointer;
+
+padding: 5px;
+
+margin-left: 23px;
+ }
+ table {
+
+    width:80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    
+ }
+ table td{
+     border: 1px solid black;
+     padding: 5px;
+ }
+ #line{
+     text-align: center;
+     font-weight: bold;
+     background-color:#8e2126;
+     font-family: tahoma;
+ }
+
+
+ @media only screen and (max-width: 767px) {
+
+    #cabecalho img {
+
+        margin-left: 32%;
+        width: 31%;
+        padding: 10px;
+    
+    }
+    #cabecalho{
+        padding:0px;
+    }
+    #btn,#btn2 {
+        width: 149px;
+        height: 40px;
+        margin-left: 28%;
+        margin-top: 18%;
+    }
+    #btn img, #btn2 img {
+
+       display: none;
+    }
+    #interface{
+        background-repeat: repeat-y;
+
+background-size: auto;
+
+width: auto;
+
+height: 977px;
+    }
+   
+#cadastra input{
+    display: flex;
+    width: 100%;
+}
+#cadastra{
+    width: auto;
+}
+#escolha{
+    
+    width: 100%;
+    height: 887px;    
+}
+
+ }
